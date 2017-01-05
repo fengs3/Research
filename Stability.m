@@ -8,7 +8,7 @@ x=[p;q];
 dx=[s*p;s*q];
 I=[1 0; 0 1];
 %matrix inverse method
-%determinant of [sI ? A]
+%determinant of [sI - A]
 deta=det(s*I-A);
 %check determinant =0
 [N,D] = numden(deta);
