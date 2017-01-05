@@ -12,5 +12,6 @@ I=[1 0; 0 1];
 deta=det(s*I-A);
 %check determinant =0
 [N,D] = numden(deta);
+%list coefficients of s
 coeffs(N,s)
 %missing one bracket in paper
